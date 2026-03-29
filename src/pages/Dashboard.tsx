@@ -24,15 +24,15 @@ const Dashboard = () => {
   // 👇 DEFINIÇÃO CLARA DOS JOGOS E SUAS ROTAS 👇
   // Aqui você define exatamente o visual, o conteúdo e a ROTA de cada card.
   const activePhases = [
-    { 
-      id: 1, 
-      title: "Treinamento de Newton", 
-      subject: "Física - Dinâmica", 
-      icon: <Rocket />, // Atualizado para combinar com Física
-      color: "from-blue-600 to-cyan-400", 
-      shadow: "shadow-cyan-500/50",
-      route: "/newton" // Rota específica para este jogo
-    },
+    // { 
+    //   id: 1, 
+    //   title: "Treinamento de Newton", 
+    //   subject: "Física - Dinâmica", 
+    //   icon: <Rocket />, // Atualizado para combinar com Física
+    //   color: "from-blue-600 to-cyan-400", 
+    //   shadow: "shadow-cyan-500/50",
+    //   route: "/newton" // Rota específica para este jogo
+    // },
     { 
       id: 2, 
       title: "Atividades Esportivas", 
